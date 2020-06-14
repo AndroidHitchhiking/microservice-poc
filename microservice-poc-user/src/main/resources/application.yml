@@ -18,8 +18,13 @@ spring:
 
 rest:
   endpoint:
-    cartByUserId: http://localhost:8083/cart/user/{userId}
-    productInfoByProductIdList: http://localhost:8082/product/product-info
+    cartByUserId: http://microservice-poc-cart/cart/user/{userId}
+    productInfoByProductIdList: http://microservice-poc-product/product/product-info
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka
 
 
 
