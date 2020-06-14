@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Product Microservice
+    name: microservice-poc-product
   data:
     mongodb:
       host: localhost
@@ -13,6 +13,9 @@ spring:
       database: shopping
       repositories:
         eneable: true
+
+  zipkin:
+    base-url: http://localhost:9411/
 
 
 
