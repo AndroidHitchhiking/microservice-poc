@@ -15,6 +15,10 @@ public class Cart {
 
     }
 
+    public Cart(String userId, List<Selection> selectedProduct) {
+        this.userId = userId;
+        this.selectedProduct = selectedProduct;
+    }
     public Cart(String id, String userId, List<Selection> selectedProduct) {
         this.id = id;
         this.userId = userId;
