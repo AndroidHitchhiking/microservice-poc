@@ -1,0 +1,18 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: Cart Microservice
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+#      username: <DB-USERNAME>
+#      password: <DB-PASSWORD>
+      database: shopping
+      repositories:
+        eneable: true
+
+
+
