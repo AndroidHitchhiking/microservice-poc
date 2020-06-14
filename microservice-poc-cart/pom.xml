@@ -26,6 +26,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -39,6 +43,13 @@
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
 		<!-- Logging Dependency END-->
+
+		<!-- Eureka client dependency START -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<!-- Eureka client dependency END -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
